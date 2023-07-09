@@ -1,0 +1,16 @@
+[
+  {
+    "name": "about",
+    "path": "/about",
+    "component": "/Users/DecSeven/workspace/Github/ssr-study/ssr/pages/about.vue",
+    "chunkName": "pages/about",
+    "_name": "_08da21ce"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/Users/DecSeven/workspace/Github/ssr-study/ssr/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_2891fc93"
+  }
+]

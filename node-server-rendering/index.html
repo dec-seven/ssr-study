@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>体验传统服务端渲染</title>
+</head>
+<body>
+  <h1>体验传统服务端渲染</h1>
+  <!-- 将数据里的title渲染到这里 -->
+  <h2>{{ title }}</h2>
+  <ul>
+    <!-- each 循环  -->
+    {{ each posts }}
+      <!-- $value 获取循环的每一项 -->
+    <li>{{ $value.title }}</li>
+    <!-- /each 循环结束 -->
+    {{ /each }}
+  </ul>
+</body>
+</html>
